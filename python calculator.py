@@ -70,11 +70,6 @@ root.geometry('280x390')
 root.resizable(0, 0)
 root.configure(background='black')
 
-# Ensure icon file exists, else skip
-try:
-    root.iconbitmap('IMG_20241027_230002.ico')
-except FileNotFoundError:
-    print("Icon file not found. Continuing without icon.")
 
 result_label = Label(root, text='', bg='black', fg='white', anchor='e', width=15)
 result_label.grid(row=0, column=0, columnspan=4, pady=(50, 25), sticky='nsew')

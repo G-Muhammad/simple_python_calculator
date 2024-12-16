@@ -49,7 +49,6 @@ This project requires no external dependencies. It uses Python's built-in `tkint
 ## File Structure
 
 - `calculator.py`: The main Python script containing the calculator logic and GUI.
-- `IMG_20241027_230002.ico`: (Optional) Icon file for the application. If not available, the program runs without it.
 
 ---
 
